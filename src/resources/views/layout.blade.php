@@ -16,9 +16,6 @@
     <li>
       <a href="{{ route('contact') }}">Contact</a>
     </li>
-    <li>
-      <a href="{{ route('blog-post', ['id' => 1]) }}">Blog Post 1</a>
-    </li>
   </ul>
   @yield('content')
 </body>
