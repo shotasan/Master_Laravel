@@ -16,6 +16,12 @@
     <li>
       <a href="{{ route('contact') }}">Contact</a>
     </li>
+    <li>
+      <a href="{{ route('posts.index') }}">Bolg Posts</a>
+    </li>
+    <li>
+      <a href="{{  route('posts.create') }}">Add Blog Post</a>
+    </li>
   </ul>
   @yield('content')
 </body>
